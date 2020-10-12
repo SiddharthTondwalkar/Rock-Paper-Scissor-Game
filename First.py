@@ -1,5 +1,5 @@
 import random
-print("Rock, Paper, Scissor")
+
 
 t = eval (input("How Much Time You Have To Play :"))
 
@@ -23,6 +23,7 @@ def Comp_in():
     return c 
 
 for i in range(1,t+1):
+    print("Rock, Paper, Scissor")
     P = Player_in()
     c = Comp_in()
     if P == "r":
